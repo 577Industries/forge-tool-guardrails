@@ -1,0 +1,51 @@
+{
+  "name": "@577-industries/tool-guardrails",
+  "version": "1.0.0",
+  "description": "4-level guardrail middleware (none/log/pause/block) for AI agent tools with human-in-the-loop approval workflow",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "guardrails",
+    "ai-safety",
+    "agent",
+    "governance",
+    "middleware",
+    "approval",
+    "human-in-the-loop",
+    "tools"
+  ],
+  "author": "577 Industries",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/577-industries/tool-guardrails"
+  },
+  "homepage": "https://www.577industries.com/forge",
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

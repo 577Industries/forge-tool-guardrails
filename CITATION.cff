@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "tool-guardrails"
+authors:
+  - name: "577 Industries"
+url: "https://github.com/577-industries/tool-guardrails"
+license: Apache-2.0
+type: software
