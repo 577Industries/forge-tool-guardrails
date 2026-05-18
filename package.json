@@ -39,7 +39,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/577-industries/tool-guardrails"
+    "url": "https://github.com/577Industries/forge-tool-guardrails"
   },
   "homepage": "https://www.577industries.com/forge",
   "devDependencies": {
